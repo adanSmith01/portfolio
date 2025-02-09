@@ -1,5 +1,5 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "Soy estudiante de la Universidad Nacional de Tucumán. Me apasiona el desarrollo web Backend y me encuentro interesado en áreas tales como Data Science y Machine Learning. Busco oportunidades de aplicar mis conocimientos y habilidades en entornos colaborativos y seguir creciendo profesionalmente en estas áreas emergentes",
   "skills": [
     "Web design",
     "User experience",
@@ -7,6 +7,5 @@
     "Focus group testing",
     "Mobile user interfaces",
     "Graphic design"
-  ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  ]
 }
