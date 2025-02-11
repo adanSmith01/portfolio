@@ -14,12 +14,7 @@
                     <img src="@icons.Email" alt="email" class="social-icon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.DevDotTo) is false)
-            {
-                <a href="https://dev.to/@(property.DevDotTo)" target="_blank" rel="noopener noreferrer">
-                    <img src="@icons.DevDotTo" alt="Dev.to" class="social-icon" />
-                </a>
-            }
+
             @if (string.IsNullOrWhiteSpace(property.GitHub) is false)
             {
                 <a href="https://github.com/@(property.GitHub)" target="_blank" rel="noopener noreferrer">
