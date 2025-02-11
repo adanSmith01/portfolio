@@ -3,18 +3,24 @@
     {
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
-    <div style="position: absolute; top: 30%; left: 2rem;">
+    <div id="content-home">
     @if (property is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
+        if(property.Profile != null)
+        {
+            <figure>
+                <img src="@property.Profile.Src" alt="@property.Profile.Alt" />
+            </figure>
+        }
         <h1>@property.Name</h1>
         <h2>@property.Title</h2>
     }
     </div>
-    <div style="position: absolute; bottom: 8rem; margin-left: 50vw;">
+    <div id="button">
         <a href="#about" target="_top">
             <img src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down" />
         </a>

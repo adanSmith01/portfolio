@@ -10,8 +10,7 @@
         <div class="portfolio-hero">
             @if (hero is not null)
             {
-                <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover;" 
-                    alt="@(hero.Alt)" />
+                <img src="@(hero.Src)" alt="@(hero.Alt)" id="back-projects" />
             }
         </div>
         <div class="container">
@@ -19,7 +18,7 @@
             {
                 <div class="box" key="@project.Title">
                     <a href="@project.Url" target="_blank" rel="noopener noreferrer">
-                        <h3 style="flex-basis: 40px;">@project.Title</h3>
+                        <h3>@project.Title</h3>
                     </a>
                     <p class="small">@project.Description</p>
                 </div>
