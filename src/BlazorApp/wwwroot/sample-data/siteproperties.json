@@ -1,7 +1,11 @@
 {
   "name": "Adan Smith Paredes Solórzano",
-  "title": "Web Designer & Content Creator",
+  "title": "Desarrollador Web Backend | Programador Python",
   "email": "smith.paredes.13@gmail.com",
+  "profile": {
+    "src": "images/profile.jpg",
+    "alt": "A profile image"
+  },
   "gitHub": "adanSmith01",
   "instagram": "adanSmithps",
   "linkedIn": "adan-smith-paredes-solorzano-b4812a220"
