@@ -1,0 +1,62 @@
+[
+    {
+        "src": "images/tech-icons/Git.png",
+        "alt": "A logo of the Git tool"
+    },
+    {
+        "src": "images/tech-icons/Github.png",
+        "alt": "A logo of the Github tool"
+    },
+    {
+        "src": "images/tech-icons/Linux.png",
+        "alt": "A logo of the GNU/Linux OS"
+    },
+    {
+        "src": "images/tech-icons/Debian.png",
+        "alt": "A logo of the Debian Linux distro"
+    },
+    {
+        "src": "images/tech-icons/HTML5.png",
+        "alt": "A logo of the HTML markup language"
+    },
+    {
+        "src": "images/tech-icons/CSS3.png",
+        "alt": "A logo of the CSS style language"
+    },
+    {
+        "src": "images/tech-icons/Csharp.png",
+        "alt": "A logo of the C# programming language"
+    },
+    {
+        "src": "images/tech-icons/Python.png",
+        "alt": "A logo of the Python programming language"
+    },
+    {
+        "src": "images/tech-icons/Bash.png",
+        "alt": "A logo of the Bash command interpreter"
+    },
+    {
+        "src": "images/tech-icons/Microsoft_.NET_logo.svg.png",
+        "alt": "A logo of the .NET platform"
+    },
+    {
+        "src": "images/tech-icons/MySQL.png",
+        "alt": "A logo of the MySQL database engine"
+    },
+    {
+        "src": "images/tech-icons/PostgreSQL.png",
+        "alt": "A logo of the PostgreSQL database engine"
+    },
+    {
+        "src": "images/tech-icons/SQLite.png",
+        "alt": "A logo of the SQLite database engine"
+    },
+    {
+        "src": "images/tech-icons/Postman.png",
+        "alt": "A logo of the Postman tool"
+    },
+    {
+        "src": "images/tech-icons/VS_Code.png",
+        "alt": "A logo of the VS Code editor"
+    }
+]
