@@ -23,7 +23,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-section.light {
+section {
   position: relative;
 }
 
@@ -41,13 +41,6 @@ section img.background {
   z-index: -1;
   position: absolute;
   object-fit: cover;
-}
-
-section#home{
-  background-image: url("../images/background-home.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  z-index: -1;
 }
 
 section#home h1, section#home h2{
@@ -152,8 +145,9 @@ img.social-icon {
   }
 
   section.dark {
-    min-height: 100vh;
-    padding-top: 7rem;
+    max-height: 656px;
+    min-height: 656px;
+    padding-top: 6rem;
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
@@ -204,6 +198,11 @@ img.social-icon {
     flex-direction: column;
     align-items: center;
     top: 12%; 
+    position: absolute;
+  }
+
+  section#home #content-home button{
+    margin-top: 2em;
   }
 
   section#home figure{
