@@ -1,0 +1,23 @@
+<section class="light" id="tech-stack">
+    <h2 class="title-content"> Tech Stack </h2>
+    <section class="content">
+        @foreach(var icon in Stack)
+        {
+            <figure>
+                <img src="@icon.Src" alt="@icon.Alt"/>
+            </figure>
+        }
+    </section>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public required HttpClient Http { get; set; }
+
+    private List<Image> Stack = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        Stack = await Http.GetFromJsonAsync<List<Image>>("sample-data/tech-stack.json");
+    }
+}
