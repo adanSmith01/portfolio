@@ -3,18 +3,30 @@
     "title": "Autenticación y autorización de usuarios usando JWT",
     "description": "Una API minima para hacer un CRUD de usuarios mediante mecanismos de autenticación y autorización usando JWT.",
     "url": "https://github.com/adanSmith01/UserAuthAndAuthenticationJWT",
-    "projectImage": null
+    "projectImage": {
+      "src": "images/project-images/auth_and_author_image.png",
+      "alt": "An image about authentication and authorization"
+    },
+    "technologies": ["C#", "ASP.NET Core", "JWT"]
   },
   {
     "title": "Generador de códigos QR",
     "description": "Aplicación de consola para crear imágenes de códigos QR personalizados a nivel básico.",
     "url": "https://github.com/adanSmith01/QRCodeGenerator",
-    "projectImage": null
+    "projectImage": {
+      "src": "images/project-images/saludo.png",
+      "alt": "A qr code image"
+    },
+    "technologies":["Python"]
   },
   {
     "title": "Sistema Kanban",
     "description": "Proyecto académico de un sistema de gestion de tareas basado en la metodología ágil KANBAN",
-    "url": "https://github.com/TallerDeLenguajes1/tl2-tp10-2023-adanSmith01",
-    "porjectImage": null
+    "url": "https://github.com/TallerDeLenguajes1/sistema-kanban",
+    "projectImage": {
+      "src": "images/project-images/kanban.jpg",
+      "alt": "An image about kanban"
+    },
+    "technologies": ["HTML5", "CSS3", "C#", "ASP.NET MVC", "SQLite", "Razor Pages"]
   }
 ]
