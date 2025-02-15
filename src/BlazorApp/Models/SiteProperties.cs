@@ -6,6 +6,7 @@ public class SiteProperties
     public string Title { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
     public Image? Profile { get; set; }
+    public string Resume {get; set; } = string.Empty;
     public string GitHub { get; set; } = string.Empty;
     public string Instagram { get; set; } = string.Empty;
     public string LinkedIn { get; set; } = string.Empty;
