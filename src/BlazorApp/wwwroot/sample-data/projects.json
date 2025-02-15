@@ -1,7 +1,7 @@
 [
   {
     "title": "Autenticación y autorización de usuarios usando JWT",
-    "description": "Una API minima para hacer un CRUD de usuarios mediante mecanismos de autenticación y autorización usando JWT.",
+    "description": "Una API minima para hacer un CRUD de usuarios mediante mecanismos de autenticación y autorización usando JWT",
     "url": "https://github.com/adanSmith01/UserAuthAndAuthenticationJWT",
     "projectImage": {
       "src": "images/project-images/auth_and_author_image.png",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Generador de códigos QR",
-    "description": "Aplicación de consola para crear imágenes de códigos QR personalizados a nivel básico.",
+    "description": "Aplicación de consola para crear imágenes de códigos QR personalizados a nivel básico",
     "url": "https://github.com/adanSmith01/QRCodeGenerator",
     "projectImage": {
       "src": "images/project-images/saludo.png",
