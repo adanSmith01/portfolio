@@ -3,12 +3,10 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lilita+One&family=Orbitron:wght@400..900&display=swap');
 
 :root{
-  --font-family-home: "Lilita One", Orbitron;
-  --font-family-h2: "Lexend";
+  --font-family-Lilita: "Lilita One", Orbitron;
 }
 
 *{
@@ -25,7 +23,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-section {
+section.light {
   position: relative;
 }
 
@@ -45,8 +43,15 @@ section img.background {
   object-fit: cover;
 }
 
+section#home{
+  background-image: url("../images/background-home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
 section#home h1, section#home h2{
-  font-family: var(--font-family-home);
+  font-family: var(--font-family-Lilita);
 }
 
 section p{
@@ -54,7 +59,7 @@ section p{
 }
 
 .title-content{
-  font-family: var(--font-family-h2);
+  font-family: var(--font-family-Lilita);
 }
 
 .container .box{
@@ -148,6 +153,8 @@ img.social-icon {
 
   section.dark {
     min-height: 100vh;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +165,6 @@ img.social-icon {
     padding-top: 5rem;
     padding-bottom: 5rem; 
   }
-  
   
   section img.background {
     width: 100%;
@@ -194,7 +200,6 @@ img.social-icon {
   }
   
   section#home #content-home{
-    position: absolute; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,13 +216,6 @@ img.social-icon {
   section#home figure img{
     width: 100%;
     border-radius: 2rem;
-  }
-
-  section#home #button{
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   section#about #content-info-about{
@@ -271,6 +269,10 @@ img.social-icon {
     flex-basis: 2.2rem;
   }
 
+  .container .box button{
+    margin-top: 1rem;
+  }
+
   .content-project figure{
     width: 100%;
   }
@@ -322,6 +324,7 @@ img.social-icon {
   }
 }
 
+
 @media screen and (min-width: 450px){
   .container .content-project{
     width: 70%;
@@ -331,16 +334,6 @@ img.social-icon {
   #tech-stack{
     max-width: 408px;
     margin: 1em auto;
-  }
-}
-
-
-@media screen and (min-width: 461px){
-  section#home #button{
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
 
