@@ -3,7 +3,7 @@
     {
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
-    <h2>Sobre mí</h2>
+    <h2 class="title-content">Sobre mí</h2>
     <div id="content-info-about">
     @if (aboutMe is null)
     {
@@ -13,14 +13,6 @@
     {
         <p class="large">@aboutMe.Description</p>
         <hr />
-        <ul>
-        @foreach (var skill in aboutMe.Skills)
-        {
-            <li key="@skill">@skill</li>
-        }
-        </ul>
-        <hr />
-        @*<p style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p>*@
     }
     </div>
 </section>
@@ -39,6 +31,5 @@
     {
         aboutMe = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
         hero = await HeroImageService.GetHeroAsync(img => img.Name is "about");
-
     }
 }
