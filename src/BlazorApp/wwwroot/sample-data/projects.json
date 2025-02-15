@@ -27,6 +27,6 @@
       "src": "images/project-images/kanban.jpg",
       "alt": "An image about kanban"
     },
-    "technologies": ["HTML5", "CSS3", "C#", "ASP.NET MVC", "SQLite", "Razor Pages"]
+    "technologies": ["HTML5", "CSS3", "C#", "ASP.NET Core", "SQLite", "Razor Pages"]
   }
 ]
